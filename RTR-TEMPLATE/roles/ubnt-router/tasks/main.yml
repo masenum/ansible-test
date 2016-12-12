@@ -1,0 +1,5 @@
+---
+- name: Generate configuration files
+  template: src=ubnt-router.j2 dest=/etc/ansible/CFGS/{{item.hostname}}.txt
+
+  with_items: "{{ edgerouter_lite }}"

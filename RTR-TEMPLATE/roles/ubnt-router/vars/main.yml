@@ -1,0 +1,3 @@
+---
+edgerouter_lite:
+ - {hostname: cgs-jmh-edgerouter-rtr1, lan_interface: eth0, lan_ip_addr: 172.31.254.1/24, wan_interface: eth1, tunnel_ip: 10.1.255.10/30, bgp_local_as: 65515, bgp_neighbor_ip: 10.1.255.9, bgp_neighbor_as: 65514, site_local_prefix: 172.31.254.0/24, static_default_route: 0.0.0.0/0, lan_dhcp_lease_start: 172.31.254.11, lan_dhcp_lease_stop: 172.31.254.254, snmp_ro_string: C@V30, snmp_location: Memel South Africa, user_password: P@$$w0rd, ipsec_peer_ip: 73.135.5.240, ipsec_peer_psk: C@V30, ipsec_local_ip: 1.1.1.1}
