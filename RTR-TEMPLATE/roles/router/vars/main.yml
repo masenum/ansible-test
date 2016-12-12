@@ -1,0 +1,7 @@
+---
+test_routers:
+  - { hostname: twb-sf-rtr1 }
+  - { hostname: twb-sf-rtr2 }
+  - { hostname: twb-la-rtr1 }
+  - { hostname: twb-la-rtr2 }
+  - { hostname: twb-den-rtr1 }

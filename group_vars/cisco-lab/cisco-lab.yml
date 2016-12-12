@@ -1,0 +1,3 @@
+---
+ansible_user: mcolburn
+ansible_ssh_pass: P@$$w0rd
